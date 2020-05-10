@@ -1,5 +1,5 @@
 on: pull_request
-name: Pull Request Action
+name: Feature 1 PR Action
 jobs:
   test:
     name: Run tests
