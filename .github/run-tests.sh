@@ -5,7 +5,7 @@ run_test () {
 }
 
 # Deliberate error exit
-exit 1
+#exit 1
 
 ALL_TESTS=("../tests/unit_test1.sh" "../tests/unit_test1.sh")
 
