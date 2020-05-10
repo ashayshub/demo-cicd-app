@@ -1,5 +1,8 @@
-on: pull_request
-name: Pull Request Action
+on:
+  push:
+    tags:
+      - 'test-*'
+name: Tag Create Action
 jobs:
   test:
     name: Run tests
