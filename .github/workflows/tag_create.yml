@@ -1,0 +1,13 @@
+on:
+  push:
+    tags:
+      - 'test-*'
+name: Tag Create Action
+jobs:
+  test:
+    name: Run tests
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@feat_1
+    - name: Feature 1 test
+      uses: skx/github-action-tester@feat_1
